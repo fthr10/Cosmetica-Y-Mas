@@ -61,13 +61,9 @@ h1 {
     font-size: 18px;
     font-family: "Josefin Sans", sans-serif;
     display: inline-block;
-    /* Açıklama metinlerini blok haline getir */
     text-align: center;
-    /* Metni ortala */
     white-space: normal;
-    /* Uzun metinlerde satır atlaması yap */
     line-height: 1.2;
-    /* Satır yüksekliğini ayarla */
 }
 
 .product-photo {
@@ -201,8 +197,6 @@ h1 {
 .fa-heart.-activate {
     color: #f86bbb;
 }
-
-/* Add this CSS at the end of your existing CSS */
 
 @media (max-width: 768px) {
     .tab-list {
