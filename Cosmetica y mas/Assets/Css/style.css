@@ -1,0 +1,221 @@
+body {
+    background: #f2dede;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-form {
+    text-align: center;
+
+}
+
+.form-group {
+    display: inline-block;
+    border-radius: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fa-bars {
+    font-size: 35px;
+    position: absolute;
+    top: 58px;
+    left: 60px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #f3b9da;
+}
+
+.material-symbols-outlined {
+    font-size: 35px;
+    position: absolute;
+    top: 58px;
+    right: 60px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #f3b9da;
+}
+
+.product-container {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.josefin-sans {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.product-text {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    display: inline-block;
+    /* Açıklama metinlerini blok haline getir */
+    text-align: center;
+    /* Metni ortala */
+    white-space: normal;
+    /* Uzun metinlerde satır atlaması yap */
+    line-height: 1.2;
+    /* Satır yüksekliğini ayarla */
+}
+
+.product-photo {
+    width: 80%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.image-container {
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+
+.empty-box {
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 50px auto;
+    height: 50px;
+    background-color: #f7eaea;
+    border-radius: 20px;
+    position: relative;
+    text-align: right;
+    z-index: 0;
+}
+
+.empty-boxx {
+    color: #d4cece;
+    width: calc(28% - 40px);
+    height: 32px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 4px;
+
+}
+
+.empty-boxx p {
+    text-align: center;
+}
+
+
+.brand-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.tabs {
+    max-width: 600px;
+    margin: auto;
+    padding-left: 120px;
+
+}
+
+.tab-list {
+    padding-bottom: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    justify-content: space-around;
+}
+
+.tab {
+    border: 1px solid #F86BBB;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: .5rem;
+    color: #F86BBB;
+    font-weight: 700;
+    background: white;
+}
+
+.tab.active {
+    color: white;
+    background: #F86BBB;
+    border: #F86BBB;
+}
+
+.tab-content {
+    background: white;
+    padding: 1.5rem;
+    color: #F86BBB;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.product-starter {
+    text-align: left;
+    margin-left: 130px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.description {
+    color: #aeacac;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.price {
+    color: #151515;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.fa-heart {
+    padding-left: 100px;
+    color: grey;
+    font-size: 23px;
+}
+
+.fa-heart.-activate {
+    color: #f86bbb;
+}
+
+/* Add this CSS at the end of your existing CSS */
+
+@media (max-width: 768px) {
+    .tab-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tab {
+        margin-bottom: 10px;
+    }
+
+    .tabs {
+        padding-left: 0;
+    }
+}
